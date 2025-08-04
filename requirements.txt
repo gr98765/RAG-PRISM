@@ -1,0 +1,22 @@
+llama-index>=0.10.0
+openai>=1.0.0
+tqdm
+PyPDF2
+matplotlib
+pandas
+numpy
+scikit-learn
+langchain
+python-dotenv
+ipykernel
+jupyter
+
+
+llama-index: for document indexing and querying
+openai: to use GPT-3.5/GPT-4 models
+PyPDF2: for PDF document ingestion
+matplotlib, pandas, sklearn: used for evaluation and visualizations
+langchain: optional if you're integrating agent-based reasoning later
+python-dotenv: useful if you want to securely store your API key in a .env file
+
+ipykernel, jupyter: required to run .ipynb locally
